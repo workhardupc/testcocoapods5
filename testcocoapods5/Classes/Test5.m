@@ -9,5 +9,9 @@
 #import "Test5.h"
 
 @implementation Test5
+    
+- (void)outputLog:(NSString *)log {
+    NSLog(@"Hello Worlddd!");
+}
 
 @end
