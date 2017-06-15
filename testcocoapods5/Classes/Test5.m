@@ -10,4 +10,8 @@
 
 @implementation Test5
 
+- (void)outputLog:(NSString *)log {
+    NSLog(@"Hello World!!!");
+}
+
 @end

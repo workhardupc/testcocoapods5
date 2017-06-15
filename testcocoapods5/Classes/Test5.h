@@ -10,4 +10,6 @@
 
 @interface Test5 : NSObject
 
+- (void)outputLog:(NSString *)log;
+
 @end

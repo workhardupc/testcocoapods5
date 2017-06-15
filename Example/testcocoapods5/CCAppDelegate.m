@@ -7,12 +7,19 @@
 //
 
 #import "CCAppDelegate.h"
+#import <testcocoapods5/Test5.h>
+//#import "Test5.h"
 
 @implementation CCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    
+    Test5 *test5 = [[Test5 alloc] init];
+    [test5 outputLog:@"HH"];
+    
     return YES;
 }
 
